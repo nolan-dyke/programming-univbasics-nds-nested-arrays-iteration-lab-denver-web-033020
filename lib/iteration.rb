@@ -27,7 +27,9 @@ row_index = 0
 total = 0
   while row_index < src.count do  
     if (src[row_index][0] % 2 == 0) && (src[row_index][1] % 2 == 0)
-      total = (total + src[row_index][0] + total + src[row_index][1])
+      if 
+        total = (total + src[row_index][0] + total + src[row_index][1])
+      end 
     end 
   row_index += 1 
   end 

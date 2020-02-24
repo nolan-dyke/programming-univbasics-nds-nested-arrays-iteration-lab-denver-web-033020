@@ -16,8 +16,8 @@ new_array = []
       new_array[row_index] = src[row_index][0]
     else
       new_array[row_index] = src[row_index][1]
-      
-    row_index += 1 
+    end 
+  row_index += 1 
   end 
   return new_array
   # src will be an array of [ [number1, number2], ... [numberN, numberM] ]
